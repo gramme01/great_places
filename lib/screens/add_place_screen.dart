@@ -57,7 +57,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
             ),
           ),
           RaisedButton.icon(
-            onPressed: () {},
+            onPressed: _savePlace,
             icon: Icon(Icons.add),
             label: Text('Add Place'),
             elevation: 0,
