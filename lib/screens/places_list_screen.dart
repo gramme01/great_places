@@ -55,7 +55,7 @@ class PlacesListScreen extends StatelessWidget {
                   ),
                   title: Text(greatPlaces.items[i].title),
                   onTap: () {
-                    //TODO go to details page
+                    // TODO go to details page
                   },
                 ),
                 itemCount: greatPlaces.items.length,
